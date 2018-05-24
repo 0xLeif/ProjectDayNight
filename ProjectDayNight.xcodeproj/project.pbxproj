@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		29724E0320B6724A00D87533 /* DNValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0E181E374E3A00E7BB46 /* DNValues.swift */; };
+		29724E0520B6FE0300D87533 /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29724E0420B6FE0300D87533 /* StringsTests.swift */; };
+		29724E0720B716A000D87533 /* ArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29724E0620B716A000D87533 /* ArraysTests.swift */; };
+		29724E0920B716AD00D87533 /* ArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29724E0820B716AD00D87533 /* ArraysTests.m */; };
+		29724E0D20B718F800D87533 /* StringsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29724E0C20B718F800D87533 /* StringsTests.m */; };
 		58AE0DF01E374DE200E7BB46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0DEF1E374DE200E7BB46 /* main.m */; };
 		58AE0DF31E374DE200E7BB46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0DF21E374DE200E7BB46 /* AppDelegate.m */; };
 		58AE0DF91E374DE300E7BB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AE0DF71E374DE300E7BB46 /* Main.storyboard */; };
 		58AE0DFB1E374DE300E7BB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AE0DFA1E374DE300E7BB46 /* Assets.xcassets */; };
 		58AE0DFE1E374DE300E7BB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AE0DFC1E374DE300E7BB46 /* LaunchScreen.storyboard */; };
-		58AE0E091E374DE300E7BB46 /* ProjectDayNightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0E081E374DE300E7BB46 /* ProjectDayNightTests.m */; };
 		58AE0E161E374E2D00E7BB46 /* DNValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0E151E374E2D00E7BB46 /* DNValues.m */; };
 		58AE0E191E374E3A00E7BB46 /* DNValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0E181E374E3A00E7BB46 /* DNValues.swift */; };
-		58AE0E1D1E374E8E00E7BB46 /* ProjectDayNightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0E1C1E374E8E00E7BB46 /* ProjectDayNightTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29724E0420B6FE0300D87533 /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
+		29724E0620B716A000D87533 /* ArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysTests.swift; sourceTree = "<group>"; };
+		29724E0820B716AD00D87533 /* ArraysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraysTests.m; sourceTree = "<group>"; };
+		29724E0C20B718F800D87533 /* StringsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringsTests.m; sourceTree = "<group>"; };
 		58AE0DEB1E374DE200E7BB46 /* ProjectDayNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectDayNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AE0DEF1E374DE200E7BB46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58AE0DF11E374DE200E7BB46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,13 +45,11 @@
 		58AE0DFD1E374DE300E7BB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58AE0DFF1E374DE300E7BB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58AE0E041E374DE300E7BB46 /* ProjectDayNightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectDayNightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58AE0E081E374DE300E7BB46 /* ProjectDayNightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectDayNightTests.m; sourceTree = "<group>"; };
 		58AE0E0A1E374DE300E7BB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58AE0E141E374E2D00E7BB46 /* DNValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNValues.h; sourceTree = "<group>"; };
 		58AE0E151E374E2D00E7BB46 /* DNValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValues.m; sourceTree = "<group>"; };
 		58AE0E171E374E3900E7BB46 /* ProjectDayNight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectDayNight-Bridging-Header.h"; sourceTree = "<group>"; };
 		58AE0E181E374E3A00E7BB46 /* DNValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNValues.swift; sourceTree = "<group>"; };
-		58AE0E1C1E374E8E00E7BB46 /* ProjectDayNightTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDayNightTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29724E0A20B716E500D87533 /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				29724E0420B6FE0300D87533 /* StringsTests.swift */,
+				29724E0620B716A000D87533 /* ArraysTests.swift */,
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		29724E0B20B716EC00D87533 /* Night */ = {
+			isa = PBXGroup;
+			children = (
+				29724E0820B716AD00D87533 /* ArraysTests.m */,
+				29724E0C20B718F800D87533 /* StringsTests.m */,
+			);
+			path = Night;
+			sourceTree = "<group>";
+		};
 		58AE0DE21E374DE200E7BB46 = {
 			isa = PBXGroup;
 			children = (
@@ -110,9 +132,9 @@
 		58AE0E071E374DE300E7BB46 /* ProjectDayNightTests */ = {
 			isa = PBXGroup;
 			children = (
-				58AE0E081E374DE300E7BB46 /* ProjectDayNightTests.m */,
-				58AE0E1C1E374E8E00E7BB46 /* ProjectDayNightTests.swift */,
 				58AE0E0A1E374DE300E7BB46 /* Info.plist */,
+				29724E0A20B716E500D87533 /* Day */,
+				29724E0B20B716EC00D87533 /* Night */,
 			);
 			path = ProjectDayNightTests;
 			sourceTree = "<group>";
@@ -246,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				29724E0320B6724A00D87533 /* DNValues.swift in Sources */,
-				58AE0E1D1E374E8E00E7BB46 /* ProjectDayNightTests.swift in Sources */,
-				58AE0E091E374DE300E7BB46 /* ProjectDayNightTests.m in Sources */,
+				29724E0D20B718F800D87533 /* StringsTests.m in Sources */,
+				29724E0920B716AD00D87533 /* ArraysTests.m in Sources */,
+				29724E0720B716A000D87533 /* ArraysTests.swift in Sources */,
+				29724E0520B6FE0300D87533 /* StringsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

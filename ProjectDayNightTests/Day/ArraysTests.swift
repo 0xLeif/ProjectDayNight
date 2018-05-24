@@ -1,7 +1,6 @@
 import XCTest
-@testable import ProjectDayNightTests
 
-class ProjectDayNightTests: XCTestCase {
+class ArraysTests: XCTestCase {
     let values = DNValues()
     
     func testFor1() {
