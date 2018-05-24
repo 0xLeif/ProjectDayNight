@@ -2,11 +2,11 @@
 #import "DNValues.h"
 #import "ProjectDayNight-Swift.h"
 
-@interface ProjectDayNightTests : XCTestCase
+@interface ArraysTests : XCTestCase
 @property (nonatomic) DNValues *values;
 @end
 
-@implementation ProjectDayNightTests
+@implementation ArraysTests
 
 - (void)setUp {
     [super setUp];
@@ -20,7 +20,7 @@
         [_values.arrays.array1 enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             count += 5;
         }];
-        printf("obj-c: %d", count);
+        printf("obj-c: %d\n", count);
     }];
 }
 - (void)testEnumerateObjects10 {
@@ -29,7 +29,7 @@
         [_values.arrays.array10 enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             count += 5;
         }];
-        printf("obj-c: %d", count);
+        printf("obj-c: %d\n", count);
     }];
 }
 - (void)testEnumerateObjects100 {
@@ -38,7 +38,7 @@
         [_values.arrays.array100 enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             count += 5;
         }];
-        printf("obj-c: %d", count);
+        printf("obj-c: %d\n", count);
     }];
 }
 - (void)testEnumerateObjects1k {
@@ -47,7 +47,7 @@
         [_values.arrays.array1k enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             count += 5;
         }];
-        printf("obj-c: %d", count);
+        printf("obj-c: %d\n", count);
     }];
 }
 - (void)testEnumerateObjects10k {
@@ -56,7 +56,7 @@
         [_values.arrays.array10k enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             count += 5;
         }];
-        printf("obj-c: %d", count);
+        printf("obj-c: %d\n", count);
     }];
 }
 - (void)testEnumerateObjects100k {
@@ -65,7 +65,7 @@
         [_values.arrays.array100k enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             count += 5;
         }];
-        printf("obj-c: %d", count);
+        printf("obj-c: %d\n", count);
     }];
 }
 - (void)testEnumerateObjects1m {
@@ -74,7 +74,7 @@
         [_values.arrays.array1m enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             count += 5;
         }];
-        printf("obj-c: %d", count);
+        printf("obj-c: %d\n", count);
     }];
 }
 
@@ -85,5 +85,4 @@
         }];
     }];
 }
-
 @end
