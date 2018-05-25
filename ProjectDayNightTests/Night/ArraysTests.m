@@ -13,6 +13,69 @@
     _values = [DNValues new];
 }
 
+- (void)testFor1 {
+    [self measureBlock:^{
+        __block int count = 0;
+        for (NSNumber *num in _values.arrays.array1) {
+            count += 5;
+        }
+        printf("obj-c: %d\n", count);
+    }];
+}
+- (void)testFor10 {
+    [self measureBlock:^{
+        __block int count = 0;
+        for (NSNumber *num in _values.arrays.array10) {
+            count += 5;
+        }
+        printf("obj-c: %d\n", count);
+    }];
+}
+- (void)testFor100 {
+    [self measureBlock:^{
+        __block int count = 0;
+        for (NSNumber *num in _values.arrays.array100) {
+            count += 5;
+        }
+        printf("obj-c: %d\n", count);
+    }];
+}
+- (void)testFor1k {
+    [self measureBlock:^{
+        __block int count = 0;
+        for (NSNumber *num in _values.arrays.array1k) {
+            count += 5;
+        }
+        printf("obj-c: %d\n", count);
+    }];
+}
+- (void)testFor10k {
+    [self measureBlock:^{
+        __block int count = 0;
+        for (NSNumber *num in _values.arrays.array10k) {
+            count += 5;
+        }
+        printf("obj-c: %d\n", count);
+    }];
+}
+- (void)testFor100k {
+    [self measureBlock:^{
+        __block int count = 0;
+        for (NSNumber *num in _values.arrays.array100k) {
+            count += 5;
+        }
+        printf("obj-c: %d\n", count);
+    }];
+}
+- (void)testFor1m {
+    [self measureBlock:^{
+        __block int count = 0;
+        for (NSNumber *num in _values.arrays.array1m) {
+            count += 5;
+        }
+        printf("obj-c: %d\n", count);
+    }];
+}
 
 - (void)testEnumerateObjects1 {
     [self measureBlock:^{
